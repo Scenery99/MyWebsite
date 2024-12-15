@@ -1,0 +1,207 @@
+:root {
+   --deeppink: rgb(221, 2, 119);
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("./img/vibrant-blue-watercolor-painting-background_53876-148110.avif");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*header*/
+
+.cap {
+    background: transparent;
+}
+
+.navbar-brand h1 {
+    color: var(--deeppink);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.nav-item a {
+    color: var(--deeppink);
+    text-transform: lowercase;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.nav-item a:hover {
+    color: rgb(226, 43, 43);
+    transition: all 0.3s;
+}
+
+.navbar-nav .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-menu {
+    width: 500px;
+    padding: 20px;
+}
+
+.modal-body img {
+    max-width: 100px;
+}
+
+.nav-item i {
+    color: var(--deeppink);
+    display: inline-block;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.nav-item i:hover {
+    color: rgb(226, 43, 43);
+
+}
+
+.dropdown-menu {
+    border: 1px solid rgb(109, 255, 240);
+    background-image: url("./img/vibrant-blue-watercolor-painting-background_53876-148110.avif");
+}
+
+.form-control {
+    background-color: rgb(249, 232, 235);
+}
+
+.btn {
+    background-color: var(--deeppink);
+    border: none;
+    color: rgb(251, 212, 219);
+}
+
+.btn:hover {
+    transition: all 0.3s;
+    background-color: rgb(251, 40, 152);
+    color: white
+}
+
+.modal-content {
+    border: 1px solid rgb(109, 255, 240);
+    background-image: url("./img/vibrant-blue-watercolor-painting-background_53876-148110.avif");
+}
+
+.table td {
+    background-color: rgb(249, 232, 235);
+}
+
+/*header*/
+
+/*section1*/
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-7 {
+    color: var(--deeppink);  
+}
+
+.col-7 h1 {
+    padding-bottom: 20px;
+    font-size: 100px;
+}
+
+.col-5 img {
+    border-radius: 2%;
+}
+
+/*section1*/
+
+/*section2*/
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-fluid h2 {
+    color: var(--deeppink);
+    text-transform: uppercase;
+    font-size: 38px;
+    border-bottom: 2px solid var(--deeppink);  
+}
+
+.card-body {
+    background-image: url("./img/vibrant-blue-watercolor-painting-background_53876-148110.avif");
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./img/chevron-left-regular-24.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(./img/chevron-right-regular-24.png);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 20px;
+}
+
+.container-xxl h2 {
+    padding-bottom: 20px;  
+}
+
+.carousel-inner a {
+    background-color: var(--deeppink);
+    color: rgb(245, 245, 245);
+}
+
+.carousel-inner a:hover {
+    transition: all 0.3s;
+    background-color: rgb(251, 40, 152);
+    color: rgb(246, 224, 228);
+}
+
+/*section2*/
+
+/*footer*/
+
+.footer {
+    background: transparent;    
+}
+
+
+.footer h3 {
+    color: var(--deeppink);
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom: 1px solid pink;
+    padding-bottom: 4px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all 0.3s;
+    color: var(--deeppink);
+}
+
+.footer a:hover {
+    color: rgb(226, 43, 43);
+    text-decoration: underline;
+}
+
+.footer-icons a {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
